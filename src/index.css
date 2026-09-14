@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.font-display {
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+
+/* Custom bounce and floating animations */
+@keyframes floatGentle {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(2deg); }
+}
+
+.animate-float {
+  animation: floatGentle 3s ease-in-out infinite;
+}
+
+/* Grass sway animation */
+@keyframes grassSway {
+  0%, 100% { transform: skewX(0deg); }
+  50% { transform: skewX(4deg); }
+}
+
+.animate-sway {
+  animation: grassSway 4s ease-in-out infinite alternate;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Fruit Catcher",
+  "description": "Game arkade menangkap buah jatuh bertema kebun ceria dengan kontrol keyboard dan sistem skor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
